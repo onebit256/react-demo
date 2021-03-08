@@ -20,7 +20,7 @@ function App() {
   return (
   <div>
     <Switch>
-     {userContext.currentUser === null ? 
+     {true ? 
      
       <Route path="/login">
       <Login />

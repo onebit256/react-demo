@@ -25,6 +25,18 @@ class Login extends Component {
     }
 
     static contextType = UserContext;
+
+    componentDidMount(){
+        const  o = 0;
+    }
+
+    componentWillMount(){
+        const  o = 0;
+    }
+
+    componentWillUnmount(){
+        const  o = 0;
+    }
     
     submitHandler = async (event) => {
         event.preventDefault();
